@@ -1,0 +1,132 @@
+body {
+    background-color: #2A2A2A;
+    font-family: 'Roboto', sans-serif;
+    color: rgba(255, 255, 255, 0.8);
+
+
+}
+
+.container-fluid {
+    background-color: #FFA843;
+}
+
+input[type=text] {
+    background-color: #181818;
+    border-color: #f0efef;
+}
+
+.white {
+    color: #DADADA;
+}
+
+button[type=submit] {
+    background-color: #181818;
+    border-color: #181818;
+}
+
+.navbar-nav {
+    float:right;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 34px;
+    font-size: 26px;
+
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.col-sm-4 {
+    background-color: #181818;
+    width: 576px;
+    height: 224px;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    padding: 1.2%;
+}
+
+.poster {
+    float: left;
+    width: 120px;
+    height: 180px;
+    background-color: #181818;
+}
+
+.thumbnail {
+    background-color: #181818;
+    border-style: none;
+}
+
+.card {
+    background: #181818;
+    margin: auto;
+    margin-top: 5%;
+    width: 50%;
+}
+
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.backdrop-img {
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    top: 0;
+    left: 0;
+}
+
+.poster-{
+    position:absolute;
+    margin: 20px;
+    z-index: 20;
+}
+
+
+.p-2{
+    margin-bottom: 5%;
+    justify-content: center;
+}  
+
+.overview{
+    font-style: italic;
+    font-weight: normal;
+    line-height: 28px;
+    font-size: 22px;
+    text-align: center;
+}
+
+hr {
+    position: relative;
+    background-color: white;
+    height: 0.5px;
+    z-index: 10;
+}
+
+.synopsis {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.synopsis-txt {
+    font-size: 18px;
+}
+
+.about {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+table { 
+    border-collapse: separate;
+    border-spacing: 2px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+}
